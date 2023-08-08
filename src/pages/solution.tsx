@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Solution = () => {
@@ -10,7 +11,7 @@ const Solution = () => {
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="relative flex flex-wrap items-center justify-between gap-6 lg:gap-0 lg:py-4">
               <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
-                <a
+                <Link
                   href="/"
                   aria-label="logo"
                   className="flex items-center space-x-2">
@@ -49,7 +50,7 @@ const Solution = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                </a>
+                </Link>
 
                 <button
                   aria-label="humburger"
@@ -73,51 +74,51 @@ const Solution = () => {
                 <div className="text-gray-600 dark:text-gray-300 lg:pr-4">
                   <ul className="space-y-6 text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
                     <li>
-                      <a
+                      <Link
                         href="./solution.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Solution</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./customers.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Customers</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./pricing.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Pricing</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./blog.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Blog</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./about.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Company</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
 
                 <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
-                  <a
+                  <Link
                     href="./contact.html"
                     className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-primaryLight sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-gray-800">
                     <span className="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">
                       Get started
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <button
                   aria-label="switch theme"
@@ -253,11 +254,11 @@ const Solution = () => {
             </div>
           </div>
           <div className="mt-12 border-y border-gray-100 py-8 text-center dark:border-gray-800 md:py-12">
-            <a
+            <Link
               href="customers.html"
               className="text-sm font-semibold tracking-wider text-gray-800 dark:text-white">
               TRUSTED BY YOUR FAVORED TOP TECHS COMPANIES
-            </a>
+            </Link>
 
             <div className="mt-8 flex flex-wrap justify-center gap-6 brightness-75 contrast-200 grayscale dark:brightness-200 dark:contrast-0 sm:justify-between lg:gap-24">
               <img
@@ -338,7 +339,7 @@ const Solution = () => {
                     nostrum.
                   </p>
                 </div>
-                <a
+                <Link
                   href="#"
                   className="flex items-center justify-between text-gray-500 group-hover:text-primary dark:text-gray-400 dark:group-hover:text-primaryLight">
                   <span className="text-sm">Read more</span>
@@ -353,7 +354,7 @@ const Solution = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-white transition-shadow hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
@@ -375,7 +376,7 @@ const Solution = () => {
                     nostrum.
                   </p>
                 </div>
-                <a
+                <Link
                   href="#"
                   className="flex items-center justify-between text-gray-500 group-hover:text-primary dark:text-gray-400 dark:group-hover:text-primaryLight">
                   <span className="text-sm">Read more</span>
@@ -390,7 +391,7 @@ const Solution = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-white transition-shadow hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
@@ -412,7 +413,7 @@ const Solution = () => {
                     nostrum.
                   </p>
                 </div>
-                <a
+                <Link
                   href="#"
                   className="flex items-center justify-between text-gray-500 group-hover:text-primary dark:text-gray-400 dark:group-hover:text-primaryLight">
                   <span className="text-sm">Read more</span>
@@ -427,7 +428,7 @@ const Solution = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-gray-50 transition-shadow hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-900 lg:hidden">
@@ -449,7 +450,7 @@ const Solution = () => {
                     nostrum.
                   </p>
                 </div>
-                <a
+                <Link
                   href="#"
                   className="flex items-center justify-between text-gray-500 group-hover:text-primary dark:text-gray-400 dark:group-hover:text-primaryLight">
                   <span className="text-sm">Read more</span>
@@ -464,7 +465,7 @@ const Solution = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -731,13 +732,13 @@ const Solution = () => {
               esse aspernatur impedit nihil quisquam, voluptates placeat
               architecto adipisci id cum enim.
             </p>
-            <a
+            <Link
               href="contact.html"
               className="relative mx-auto flex h-11 w-max items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 active:duration-75 active:before:scale-95 dark:before:bg-primaryLight">
               <span className="relative text-base font-semibold text-white dark:text-gray-900">
                 Get started
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -749,7 +750,7 @@ const Solution = () => {
               <div className="col-span-8 md:col-span-2 lg:col-span-3">
                 <div className="flex h-full items-center justify-between gap-6 border-b border-white py-6 dark:border-gray-800 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
                   <div>
-                    <a
+                    <Link
                       href="/index.html"
                       aria-label="ampire logo"
                       className="flex items-center">
@@ -788,16 +789,16 @@ const Solution = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="https://tailus.io"
                       className="mt-2 inline-block text-sm">
                       Designed by Tailus in Lubumbashi{" "}
-                    </a>
+                    </Link>
                   </div>
 
                   <div className="flex gap-6">
-                    <a
+                    <Link
                       href="#"
                       target="blank"
                       aria-label="github"
@@ -812,8 +813,8 @@ const Solution = () => {
                         viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                       </svg>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       target="blank"
                       aria-label="twitter"
@@ -828,8 +829,8 @@ const Solution = () => {
                         viewBox="0 0 16 16">
                         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                       </svg>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       target="blank"
                       aria-label="medium"
@@ -845,7 +846,7 @@ const Solution = () => {
                         viewBox="0 0 16 16">
                         <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -857,39 +858,39 @@ const Solution = () => {
                     </h2>
                     <ul className="mt-4 list-inside space-y-4">
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           About
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Customers
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Enterprise
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Partners
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Jobs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -899,39 +900,39 @@ const Solution = () => {
                     </h2>
                     <ul className="mt-4 list-inside space-y-4">
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           About
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Customers
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Enterprise
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Partners
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Jobs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -941,39 +942,39 @@ const Solution = () => {
                     </h2>
                     <ul className="mt-4 list-inside space-y-4">
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           About
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Customers
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Enterprise
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Partners
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="#"
                           className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                           Jobs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

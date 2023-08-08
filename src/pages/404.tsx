@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PageNotFound = () => {
@@ -10,7 +11,7 @@ const PageNotFound = () => {
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="relative flex flex-wrap items-center justify-between gap-6 lg:gap-0 lg:py-4">
               <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
-                <a
+                <Link
                   href="/"
                   aria-label="logo"
                   className="flex items-center space-x-2">
@@ -49,7 +50,7 @@ const PageNotFound = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                </a>
+                </Link>
 
                 <button
                   aria-label="humburger"
@@ -73,51 +74,51 @@ const PageNotFound = () => {
                 <div className="text-gray-600 dark:text-gray-300 lg:pr-4">
                   <ul className="space-y-6 text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
                     <li>
-                      <a
+                      <Link
                         href="./solution.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Solution</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./customers.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Customers</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./pricing.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Pricing</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./blog.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Blog</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="./about.html"
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4">
                         <span>Company</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
 
                 <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
-                  <a
+                  <Link
                     href="./contact.html"
                     className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-primaryLight sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-gray-800">
                     <span className="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">
                       Get started
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <button
                   aria-label="switch theme"
@@ -180,13 +181,13 @@ const PageNotFound = () => {
               <h1 className="mb-20 mt-12 text-4xl font-bold text-gray-700 dark:text-white md:text-5xl">
                 This is not the page you were looking for. . .
               </h1>
-              <a
+              <Link
                 href="./../index.html"
                 className="relative flex h-9 w-max items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-primaryLight lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-gray-800">
                 <span className="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">
                   Go back home
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
