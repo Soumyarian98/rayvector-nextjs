@@ -1,6 +1,8 @@
+import GlobalLayout from "@/layouts/global-layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
+import { Roboto } from "next/font/google";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -38,5 +40,16 @@ export default function App({ Component, pageProps }: AppProps) {
       });
     });
   }, []);
-  return <Component {...pageProps} />;
+  return (
+    <>
+      {/* <style jsx global>{`
+        html {
+          font-family: ${inter.style.fontFamily};
+        }
+      `}</style> */}
+      <GlobalLayout>
+        <Component {...pageProps} />
+      </GlobalLayout>
+    </>
+  );
 }

@@ -1,8 +1,8 @@
 import { defineField, defineType } from "sanity";
 
 export default defineType({
-  name: "staticPage",
-  title: "Solutions",
+  name: "careers",
+  title: "Careers",
   type: "document",
   fields: [
     defineField({
@@ -23,8 +23,13 @@ export default defineType({
       rows: 5,
     }),
     defineField({
-      name: "gridSections",
-      title: "Grid Sections",
+      title: "Card Image",
+      name: "cardImage",
+      type: "image",
+    }),
+    defineField({
+      name: "sections",
+      title: "sections",
       type: "array",
       of: [
         {
@@ -40,11 +45,6 @@ export default defineType({
               name: "description",
               type: "array",
               of: [{ type: "block" }],
-            }),
-            defineField({
-              title: "Image",
-              name: "image",
-              type: "image",
             }),
           ],
         },

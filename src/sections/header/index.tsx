@@ -18,11 +18,6 @@ const menuItems = [
     link: "/solutions/ar-vr",
   },
   {
-    id: "4",
-    name: "About Us",
-    link: "/about",
-  },
-  {
     id: "5",
     name: "Events",
     link: "/events",
