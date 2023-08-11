@@ -10,7 +10,7 @@ const menuItems = [
   {
     id: "2",
     name: "AI",
-    link: "/solutions/ai",
+    link: "/solutions/artificial-intelligence",
   },
   {
     id: "3",
