@@ -25,7 +25,7 @@ const SectionGrid: FC<Props> = ({
           {image && (
             <div className="md:5/12 lg:w-6/12">
               <img
-                src="./../images/stats-login.webp"
+                src={image}
                 alt="tailus stats and login components"
                 loading="lazy"
                 width="1779"

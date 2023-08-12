@@ -66,7 +66,7 @@ export default function Home({ data }: any) {
                 {data?.customerSectionTitle}
               </Link>
               <div className="mt-8 flex flex-wrap justify-center gap-6 brightness-75 contrast-200 grayscale dark:brightness-200 dark:contrast-0 sm:justify-between lg:gap-24">
-                {data?.customerLogos.map((logo: any) => (
+                {data?.customerLogos?.map((logo: any) => (
                   <img
                     className="h-8 w-auto lg:h-10 lg:w-auto"
                     src={sanityImageUrlBuilder(logo).width(200).url()}
