@@ -122,7 +122,7 @@ const Contact = () => {
                 </div>
                 <button
                   aria-label="switch theme"
-                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
+                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50  before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -145,7 +145,7 @@ const Contact = () => {
               <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
                 <button
                   aria-label="switche theme"
-                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
+                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50  before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -186,7 +186,7 @@ const Contact = () => {
               <form
                 action=""
                 className="relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-12">
-                <div className="absolute inset-0 hidden scale-105 rounded-3xl bg-gradient-to-b from-transparent dark:block dark:to-gray-900/80"></div>
+                <div className="absolute inset-0 hidden scale-105 rounded-3xl  from-transparent dark:block dark:to-gray-900/80"></div>
                 <div className="relative">
                   <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
                     What should we know ?
@@ -308,7 +308,7 @@ const Contact = () => {
 
             <div>
               <div className="relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:px-12">
-                <div className="absolute inset-0 hidden scale-105 rounded-3xl bg-gradient-to-b from-transparent dark:block dark:to-gray-900/80"></div>
+                <div className="absolute inset-0 hidden scale-105 rounded-3xl  from-transparent dark:block dark:to-gray-900/80"></div>
                 <div className="relative">
                   <img
                     className="h-12 w-auto dark:contrast-100 dark:grayscale dark:invert"

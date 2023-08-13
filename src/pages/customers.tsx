@@ -122,7 +122,7 @@ const Customers = () => {
                 </div>
                 <button
                   aria-label="switch theme"
-                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
+                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50  before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -145,7 +145,7 @@ const Customers = () => {
               <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
                 <button
                   aria-label="switche theme"
-                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
+                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -194,7 +194,7 @@ const Customers = () => {
                     d="M58.1 11.1c-1 0-1.9 0-2.3.2.2.2 2.3.6 2.3-.2zM208.2 13.3c-.1 0-.3.1-.4.1.1 0 .3 0 .4-.1zM216.3 12.9c-.1-.1-.2-.2-.4-.3 0 .3.1.5.4.3zM132.6 11.5zM178.5 13.7c.7-.4 1-.7 1-1-.4.1-.7.3-1 1zM163 12.6c-.1.1-.2.1-.3.2.3-.1.3-.2.3-.2zM130.2 12c.7-.4 1.6-.3 2.4-.5-.7.2-1.9-.3-2.4.5zM226.1 11.4l-.7.6.8-.4zM218.6 12c-.3-.1-1.7.3-1.3.6.4-.3.9-.5 1.3-.6zM189.6 11.4l-.3.6.7-.5z"
                   />
                 </svg>
-                <span className="relative bg-gradient-to-r from-secondaryLight to-secondary bg-clip-text px-2 text-transparent">
+                <span className="relative  from-secondaryLight to-secondary bg-clip-text px-2 text-transparent">
                   companies.
                 </span>
               </span>
@@ -371,7 +371,7 @@ const Customers = () => {
               <Link
                 href="story.html"
                 className="group relative row-start-1 rounded-3xl border border-gray-100 bg-white p-8 dark:border-gray-700 dark:bg-gray-800 sm:col-span-2 md:row-start-2 lg:col-span-1 lg:row-start-1">
-                <div className="absolute inset-0 hidden scale-105 rounded-3xl bg-gradient-to-b from-transparent dark:block dark:to-gray-900/80"></div>
+                <div className="absolute inset-0 hidden scale-105 rounded-3xl  from-transparent dark:block dark:to-gray-900/80"></div>
                 <div className="relative gap-6 sm:flex lg:block">
                   <div className="-mx-6 -mt-6 flex rounded-2xl border border-dashed bg-gray-100 p-10 dark:border-gray-700 dark:bg-gray-800 sm:mr-0 sm:-mb-6 sm:-ml-6 sm:-mt-6 sm:w-1/3 lg:-mx-6 lg:mb-0 lg:w-auto">
                     <img
@@ -431,7 +431,7 @@ const Customers = () => {
                   </div>
                 </div>
                 <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
-                  <div className="absolute inset-0 hidden scale-105 rounded-3xl bg-gradient-to-b from-transparent dark:block dark:to-gray-900/80"></div>
+                  <div className="absolute inset-0 hidden scale-105 rounded-3xl  from-transparent dark:block dark:to-gray-900/80"></div>
                   <div className="relative">
                     <div className="-mx-6 -mt-6 rounded-2xl border border-dashed bg-gray-100 p-10 dark:border-gray-700 dark:bg-gray-800">
                       <img
@@ -473,7 +473,7 @@ const Customers = () => {
               </div>
               <div className="space-y-4">
                 <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
-                  <div className="absolute inset-0 hidden scale-105 rounded-3xl bg-gradient-to-b from-transparent dark:block dark:to-gray-900/80"></div>
+                  <div className="absolute inset-0 hidden scale-105 rounded-3xl  from-transparent dark:block dark:to-gray-900/80"></div>
                   <div className="relative">
                     <div className="-mx-6 -mt-6 rounded-2xl border border-dashed bg-gray-100 p-10 dark:border-gray-700 dark:bg-gray-800">
                       <img

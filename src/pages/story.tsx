@@ -122,7 +122,7 @@ const Story = () => {
                 </div>
                 <button
                   aria-label="switch theme"
-                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
+                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50  before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -145,7 +145,7 @@ const Story = () => {
               <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
                 <button
                   aria-label="switche theme"
-                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
+                  className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50  before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
@@ -174,8 +174,8 @@ const Story = () => {
         <div
           aria-hidden="true"
           className="absolute inset-0 top-56 grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-30">
-          <div className="h-56 bg-gradient-to-br from-primary to-purple-400 blur-[106px] dark:from-blue-700"></div>
-          <div className="h-32 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600"></div>
+          <div className="h-56 from-primary to-purple-400 blur-[106px] dark:from-blue-700"></div>
+          <div className="h-32 from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600"></div>
         </div>
         <div className="relative mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
           <div className="grid gap-6 lg:grid-cols-2">
@@ -190,7 +190,7 @@ const Story = () => {
               />
               <h1 className="relative mt-6 text-center text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">
                 Increased sales by
-                <span className="relative bg-gradient-to-r from-primaryLight to-secondary bg-clip-text px-2 text-5xl text-transparent dark:to-secondaryLight sm:text-6xl">
+                <span className="relative from-primaryLight to-secondary bg-clip-text px-2 text-5xl text-transparent dark:to-secondaryLight sm:text-6xl">
                   360%
                 </span>
               </h1>

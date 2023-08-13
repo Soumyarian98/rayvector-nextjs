@@ -4,7 +4,7 @@ import { FiLinkedin } from "react-icons/fi";
 
 const TeamMembers = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-transparent pt-20 dark:from-darker">
+    <section className="from-gray-100 to-transparent pt-20 dark:from-darker">
       <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
         <h2 className="text-center text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
           Our team

@@ -50,11 +50,6 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </Link>
-                  <Link
-                    href="https://tailus.io"
-                    className="mt-2 inline-block text-sm">
-                    Designed by Tailus in Lubumbashi{" "}
-                  </Link>
                 </div>
 
                 <div className="flex gap-6">
