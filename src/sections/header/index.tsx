@@ -25,7 +25,7 @@ const menuItems = [
   {
     id: "6",
     name: "Company",
-    link: "/studio/aboutUs",
+    link: "/about",
   },
 ];
 
