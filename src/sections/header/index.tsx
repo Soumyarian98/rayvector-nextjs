@@ -26,7 +26,7 @@ const menuItems = [
     id: "6",
     name: "Careers",
     link: "/careers",
-  },
+  }
 ];
 
 const Header = () => {
