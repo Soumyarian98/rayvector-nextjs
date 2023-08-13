@@ -12,6 +12,7 @@ interface Props {
 const SectionGrid: FC<Props> = ({
   imagePosition = "left",
   image,
+  title,
   description,
 }) => {
   return (
@@ -36,7 +37,7 @@ const SectionGrid: FC<Props> = ({
           <div
             className={clsx(Boolean(image) ? "md:7/12 lg:w-6/12" : "w-full")}>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl xl:text-5xl">
-              Development is carried out by passionate developers
+              {title}
             </h2>
             <div className="mt-8 text-gray-600 dark:text-gray-300">
               <PortableText content={description} />
