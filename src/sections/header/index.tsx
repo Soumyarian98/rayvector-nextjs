@@ -9,23 +9,23 @@ const menuItems = [
   },
   {
     id: "2",
+    name: "Synthetic Data",
+    link: "/solutions/synthetic-data",
+  },
+  {
+    id: "3",
     name: "AI",
     link: "/solutions/artificial-intelligence",
   },
   {
-    id: "3",
+    id: "5",
     name: "AR/VR",
     link: "/solutions/ar-vr",
   },
   {
-    id: "5",
-    name: "Events",
-    link: "/events",
-  },
-  {
     id: "6",
-    name: "Careers",
-    link: "/careers",
+    name: "Company",
+    link: "/studio/aboutUs",
   }
 ];
 
