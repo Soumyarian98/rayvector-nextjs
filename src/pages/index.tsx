@@ -18,7 +18,6 @@ export const getStaticProps = async () => {
 export default function Home({ data }: any) {
   return (
     <main className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
-      <Header />
       <section className="pt-32 sm:pt-40 md:pt-48">
         <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
           <div className="relative">
@@ -81,8 +80,6 @@ export default function Home({ data }: any) {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }
