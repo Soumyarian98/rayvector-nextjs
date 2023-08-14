@@ -860,8 +860,8 @@ const Story = () => {
                   </div>
                 </div>
                 <div className="flex justify-between text-sm md:pl-16">
-                  <span>&copy; tailus 2003 - Present</span>
-                  <span>All right reserved</span>
+                  <span>&copy; Rayvector Technologies Private Limited 2022 - Present</span>
+                  <span>All rights reserved</span>
                 </div>
               </div>
             </div>
