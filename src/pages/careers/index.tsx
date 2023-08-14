@@ -24,20 +24,8 @@ const Careers = ({ data, cards }: any) => {
       <BannerText title={data?.bannerTitle} subtitle={data?.bannerSubtitle} />
       <section className="py-16">
         <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl xl:text-5xl">
-              {data?.jobSection.title}
-            </h2>
-            <div className="mt-8 text-gray-600 dark:text-gray-300">
-              <PortableText content={data?.jobSection?.description ?? []} />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="py-16">
-        <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl xl:text-5xl">
-            Vacancies
+            Current Openings
           </h2>
           <div className="mt-8 text-gray-600 dark:text-gray-300">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
