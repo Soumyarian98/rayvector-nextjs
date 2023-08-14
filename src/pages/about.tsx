@@ -1,10 +1,6 @@
 import AboutUsTimeline from "@/sections/about-us-timeline";
-import Footer from "@/sections/footer";
-import Header from "@/sections/header";
 import TeamMembers from "@/sections/team-members";
-import Link from "next/link";
 import React from "react";
-import { FiLinkedin } from "react-icons/fi";
 import { client } from "../../sanity/lib/client";
 import BannerText from "@/components/banner-text";
 
@@ -20,13 +16,21 @@ export const getStaticProps = async () => {
 };
 
 const About = ({ data }: any) => {
+  console.log(data, "about data");
+
   return (
     <div>
       <BannerText title={data?.bannerTitle} subtitle={data?.bannerSubtitle} />
-
-      <AboutUsTimeline />
-      <TeamMembers />
-      <Footer />
+      <AboutUsTimeline
+        events={data.timeline.timelineItems}
+        title={data.timeline.title}
+        subtitle={data.timeline.subtitle}
+      />
+      <TeamMembers
+        title={data.team.title}
+        subtitle={data.team.subtitle}
+        members={data.team.teamMembers}
+      />
     </div>
   );
 };
