@@ -4,7 +4,7 @@ import React from "react";
 const menuItems = [
   {
     id: "1",
-    name: "AI, CV & ML",
+    name: "AI",
     link: "/solutions/artificial-intelligence",
   },
   {

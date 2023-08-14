@@ -65,7 +65,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        href="/solutions/ai"
+                        href="/solutions/artificial-intelligence"
                         className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                         Artificial Intelligence
                       </Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                   <ul className="mt-4 list-inside space-y-4">
                     <li>
                       <Link
-                        href="/solutions/company"
+                        href="/about"
                         className="text-sm duration-100 hover:text-primary dark:hover:text-white">
                         Company
                       </Link>
