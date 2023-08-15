@@ -27,10 +27,11 @@ const SectionGrid: FC<Props> = ({
             <div className="md:5/12 lg:w-6/12">
               <img
                 src={image}
-                alt="tailus stats and login components"
+                alt="rayvector"
                 loading="lazy"
                 width="1779"
                 height="1592"
+                className="rounded-3xl"
               />
             </div>
           )}

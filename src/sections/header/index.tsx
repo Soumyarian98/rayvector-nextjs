@@ -5,26 +5,26 @@ import React, { useState } from "react";
 const menuItems = [
   {
     id: "1",
-    name: "Semiconductor Solutions",
-    link: "/solutions/semiconductor-solutions",
-  },
-  {
-    id: "2",
-    name: "Synthetic Data",
-    link: "/solutions/synthetic-data",
-  },
-  {
-    id: "3",
     name: "AI",
     link: "/solutions/artificial-intelligence",
   },
   {
-    id: "5",
+    id: "2",
     name: "AR/VR",
     link: "/solutions/ar-vr",
   },
   {
-    id: "6",
+    id: "3",
+    name: "Semiconductor Solutions",
+    link: "/solutions/semiconductor-solutions",
+  },
+  {
+    id: "4",
+    name: "Synthetic Data",
+    link: "/solutions/synthetic-data",
+  },
+  {
+    id: "5",
     name: "Company",
     link: "/about",
   },
