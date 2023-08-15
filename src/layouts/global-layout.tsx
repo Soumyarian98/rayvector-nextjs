@@ -8,11 +8,11 @@ interface Props {
 
 const GlobalLayout: FC<Props> = ({ children }) => {
   return (
-    <body className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
+    <div className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
       <Header />
       {children}
       <Footer />
-    </body>
+    </div>
   );
 };
 

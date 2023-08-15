@@ -48,7 +48,11 @@ const AboutUsTimeline: FC<Props> = ({ events, subtitle, title }) => {
                     </div>
                     <div className="">
                       <span className="text-gray-500">
-                        {new Date(e.eventDate).getFullYear()}
+                        {new Date(e.eventDate).toLocaleDateString("en-GB", {
+                          year: "numeric",
+                          month: "long",
+                          day: "numeric",
+                        })}
                       </span>
                       <h3 className="mt-0.5 text-xl font-semibold text-gray-700 dark:text-white">
                         {e.title}

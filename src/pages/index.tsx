@@ -25,7 +25,7 @@ export default function Home({ data }: any) {
               {data?.bannerTitle}
             </h1>
             <div className="relative  gap-12 lg:flex">
-              <div className="text-center sm:mx-auto sm:w-11/12 md:mt-12 md:w-4/5 lg:mt-0 lg:mr-auto lg:w-6/12 lg:text-left">
+              <div className="text-center  sm:w-11/12 md:mt-12  lg:mt-0 lg:mr-auto lg:w-6/12 md:text-left">
                 <p className="mt-12 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
                   {data?.bannerSubtitle}
                 </p>
