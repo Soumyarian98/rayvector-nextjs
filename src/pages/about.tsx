@@ -16,8 +16,6 @@ export const getStaticProps = async () => {
 };
 
 const About = ({ data }: any) => {
-  console.log(data, "about data");
-
   return (
     <div>
       <BannerText title={data?.bannerTitle} subtitle={data?.bannerSubtitle} />

@@ -4,7 +4,7 @@ import React from "react";
 
 const Solution = () => {
   return (
-    <body className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
+    <div className="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900">
       <Header />
 
       <section className="pt-32 sm:pt-36 md:pt-40 lg:pt-36">
@@ -825,7 +825,7 @@ const Solution = () => {
           </div>
         </div>
       </footer>
-    </body>
+    </div>
   );
 };
 
